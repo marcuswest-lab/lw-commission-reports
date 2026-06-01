@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Buyer Commission Report — May 2026</title>
+<style>
+  :root{
+    --olive:#3F4021; --sage:#AEAC92; --beige:#D6D0B8; --cream:#FFF7E7;
+    --amber:#E4A017; --burnt:#B34100; --brown:#623E2A; --charcoal:#2B2728;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Poppins','Segoe UI',system-ui,sans-serif;
+    background:var(--cream); color:var(--charcoal);
+    line-height:1.55; padding:40px 20px;
+  }
+  .wrap{max-width:960px;margin:0 auto;}
+  header{
+    background:var(--olive); color:var(--cream);
+    border-radius:16px; padding:36px 40px; margin-bottom:28px;
+    box-shadow:0 8px 24px rgba(63,64,33,.18);
+  }
+  header .eyebrow{
+    text-transform:uppercase; letter-spacing:.18em; font-size:.72rem;
+    color:var(--amber); font-weight:600; margin-bottom:10px;
+  }
+  header h1{font-size:1.85rem;font-weight:700;line-height:1.2;}
+  header .sub{margin-top:10px;color:var(--beige);font-size:.95rem;}
+  .meta-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:18px;font-size:.85rem;}
+  .meta-row span{color:var(--cream);} .meta-row b{color:var(--amber);}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:30px;}
+  .kpi{background:#fff;border-radius:14px;padding:20px;border:1px solid var(--beige);
+    box-shadow:0 3px 10px rgba(0,0,0,.04);}
+  .kpi .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;
+    color:var(--brown);font-weight:600;margin-bottom:8px;}
+  .kpi .val{font-size:1.7rem;font-weight:700;color:var(--olive);}
+  .kpi .note{font-size:.74rem;color:var(--sage);margin-top:4px;}
+
+  section{background:#fff;border-radius:16px;padding:28px 32px;margin-bottom:26px;
+    border:1px solid var(--beige);box-shadow:0 3px 12px rgba(0,0,0,.04);}
+  h2{font-size:1.15rem;color:var(--olive);margin-bottom:6px;display:flex;align-items:center;gap:10px;}
+  h2::before{content:"";width:6px;height:22px;background:var(--amber);border-radius:3px;display:inline-block;}
+  .section-sub{font-size:.85rem;color:var(--brown);margin-bottom:18px;}
+
+  table{width:100%;border-collapse:collapse;font-size:.88rem;}
+  th{background:var(--olive);color:var(--cream);text-align:left;padding:11px 12px;
+    font-weight:600;font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;}
+  th.num,td.num{text-align:right;}
+  td{padding:10px 12px;border-bottom:1px solid #efe9d8;}
+  tbody tr:nth-child(even){background:#faf6ea;}
+  tbody tr:hover{background:#f3edda;}
+  .total-row td{font-weight:700;background:var(--beige)!important;color:var(--olive);
+    border-top:2px solid var(--olive);}
+
+  .badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:.72rem;
+    font-weight:600;color:#fff;}
+  .b-andrew{background:var(--burnt);}
+  .b-juan{background:var(--amber);color:var(--charcoal);}
+  .b-hafsa{background:var(--brown);}
+  .chip{display:inline-block;font-size:.68rem;padding:1px 7px;border-radius:12px;
+    background:var(--sage);color:var(--olive);font-weight:600;margin-left:6px;}
+
+  .callout{border-left:4px solid var(--amber);background:#fdf8ec;padding:16px 20px;
+    border-radius:0 10px 10px 0;font-size:.88rem;}
+  .callout b{color:var(--burnt);}
+  .callout ul{margin:8px 0 0 18px;} .callout li{margin-bottom:4px;}
+  .muted{color:var(--brown);font-size:.85rem;}
+  footer{text-align:center;color:var(--sage);font-size:.78rem;margin-top:30px;}
+  .src-line{font-size:.8rem;color:var(--brown);margin-top:14px;}
+  @media(max-width:680px){.kpis{grid-template-columns:repeat(2,1fr);}header,section{padding:22px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">LaWayra Retreat · Paid Ads Attribution</div>
+    <h1>Media Buyer Commission Report</h1>
+    <div class="sub">Bookings cross-referenced against LEADS, Sales Dashboard (FB calendar) &amp; Juan's Meta dashboard</div>
+    <div class="meta-row">
+      <span>Period: <b>May 1–31, 2026</b></span>
+      <span>Basis: <b>Booking-created date</b></span>
+      <span>Attributed: <b>10 of 27</b> May bookings</span>
+    </div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><div class="label">Attributed Sales</div><div class="val">10</div><div class="note">paid-ads sourced</div></div>
+    <div class="kpi"><div class="label">Total Revenue</div><div class="val">$18,238.87</div><div class="note">full booking value</div></div>
+    <div class="kpi"><div class="label">Cash Collected</div><div class="val">$9,946.62</div><div class="note">deposits + paid</div></div>
+    <div class="kpi"><div class="label">Media Buyers</div><div class="val">3</div><div class="note">Andrew · Hafsa · Juan</div></div>
+  </div>
+
+  <section>
+    <h2>Commission Summary by Media Buyer</h2>
+    <p class="section-sub">Attribution uses the lead-create date (LEADS) for Google Ads, and the GHL FB consultation calendar for Juan's Meta funnel.</p>
+    <table>
+      <thead>
+        <tr><th>Media Buyer</th><th>Channel</th><th class="num">Sales</th><th class="num">Revenue (Total)</th><th class="num">Cash Collected</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="badge b-andrew">Andrew</span></td><td>Google Ads</td><td class="num">8</td><td class="num">$13,870.37</td><td class="num">$7,762.37</td></tr>
+        <tr><td><span class="badge b-hafsa">Hafsa</span></td><td>Google Ads</td><td class="num">1</td><td class="num">$2,335.50</td><td class="num">$1,167.75</td></tr>
+        <tr><td><span class="badge b-juan">Juan</span></td><td>Meta / FB</td><td class="num">1</td><td class="num">$2,033.00</td><td class="num">$1,016.50</td></tr>
+        <tr class="total-row"><td>TOTAL</td><td></td><td class="num">10</td><td class="num">$18,238.87</td><td class="num">$9,946.62</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Booking Detail</h2>
+    <p class="section-sub">All 10 attributed May bookings. 🌱 = long-nurture (&gt;180 days lead→booking).</p>
+    <table>
+      <thead>
+        <tr><th>Booker</th><th>BL #</th><th>Buyer</th><th>Status</th><th>Lead Created</th><th class="num">Total</th><th class="num">Cash</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Sean Murray</td><td>2026-0288</td><td><span class="badge b-andrew">Andrew</span></td><td>paid</td><td>2026-05-10</td><td class="num">$1,429.87</td><td class="num">$1,429.87</td></tr>
+        <tr><td>Cagri Cakir</td><td>2026-0291</td><td><span class="badge b-andrew">Andrew</span></td><td>paid</td><td>2026-05-14</td><td class="num">$845.00</td><td class="num">$845.00</td></tr>
+        <tr><td>john coyne</td><td>2026-0297</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2026-05-21</td><td class="num">$1,345.00</td><td class="num">$672.50</td></tr>
+        <tr><td>Patricia Rockman</td><td>2026-0302</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2026-04-21</td><td class="num">$1,845.00</td><td class="num">$822.50</td></tr>
+        <tr><td>Sharlene Benitez</td><td>2026-0303</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2026-02-07</td><td class="num">$1,555.00</td><td class="num">$730.00</td></tr>
+        <tr><td>Nyleesha Perez <span class="chip">🌱 202d</span></td><td>2026-0306</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2025-11-04</td><td class="num">$1,585.00</td><td class="num">$792.50</td></tr>
+        <tr><td>Debra Peters</td><td>2026-0311</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2026-01-07</td><td class="num">$2,345.00</td><td class="num">$1,172.50</td></tr>
+        <tr><td>Lacy Sterling</td><td>2026-0318</td><td><span class="badge b-andrew">Andrew</span></td><td>deposit</td><td>2026-05-25</td><td class="num">$2,920.50</td><td class="num">$1,297.50</td></tr>
+        <tr><td>Anna Charters <span class="chip">🌱 474d</span></td><td>2026-0293</td><td><span class="badge b-hafsa">Hafsa</span></td><td>deposit</td><td>2025-01-30</td><td class="num">$2,335.50</td><td class="num">$1,167.75</td></tr>
+        <tr><td>Tara Jacobs <span class="chip">FB call 5/26 · rep Aliyah</span></td><td>2026-0309</td><td><span class="badge b-juan">Juan</span></td><td>deposit</td><td>2026-05-27</td><td class="num">$2,033.00</td><td class="num">$1,016.50</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Notes &amp; Reconciliation</h2>
+    <div class="callout">
+      <b>Booking-date vs. call-date — 2 Juan sales deferred to June.</b>
+      Juan's private dashboard counts by <i>call date</i> and shows <b>3 all-time</b> sales. This report counts by <i>booking-created date</i> (same basis as Andrew &amp; Hafsa), so two Juan closes land in <b>June</b> instead:
+      <ul>
+        <li><b>Matt Stuhl</b> (#2026-0326) — FB call 5/26, booking created <b>6/1</b> — $2,644.00</li>
+        <li><b>Michael La Masters</b> (#2026-0323) — FB call 6/1, booking created <b>6/1</b> — $1,585.00</li>
+      </ul>
+    </div>
+    <p class="muted" style="margin-top:16px;">
+      <b>Two-dimension attribution.</b> Media-buyer credit (above) is separate from sales-rep credit. Tara Jacobs was sourced by Juan's Meta funnel but <b>closed by Aliyah</b> — both get their respective credit.
+    </p>
+    <p class="muted" style="margin-top:10px;">
+      <b>Not attributable (17 of 27 May bookings):</b> organic "Booking engine" + partner/backoffice rep deals with no paid-ads lead record.
+    </p>
+    <p class="muted" style="margin-top:10px;">
+      <b>Open cleanup:</b> Sales Dashboard FB rows for Matt Stuhl (#0326) and Michael La Masters (#0323) have blank Booking Ref (col L) — fill to keep Juan's dashboard revenue robust.
+    </p>
+    <p class="src-line">
+      <b>Sources:</b> Bookinglayer-Bookings-2026-06-01 · LEADS (3).xlsx · Sales Dashboard (1fcBghq…) FB calendar · Juan dashboard (script.google.com /…/exec). Media-buyer cutoffs: Andrew 10/27/25→present · Hafsa 9/17/24→5/7/25.
+    </p>
+  </section>
+
+  <footer>Generated 2026-06-01 · LaWayra Retreat · Media Buyer Commission Report (May 2026)</footer>
+
+</div>
+</body>
+</html>
